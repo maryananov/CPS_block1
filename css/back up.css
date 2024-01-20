@@ -1,0 +1,8 @@
+@media screen and (min-width: 1119px) { /* more than 1120*/
+    body {
+        background-color: lightcoral;
+    }
+    nav ul {
+        flex-wrap: wrap;
+    }
+}
