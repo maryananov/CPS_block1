@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'TT Lakes';
     src: url('../fonts/TypeType - TT Lakes Medium.ttf') format('ttf'),
-    url('../fonts/TypeType - TT Lakes Condensed Bold.ttf') format('ttf');
+    url('../fonts/TypeType - TT Lakes Condensed Bold.ttf') format('ttf'),
     url('../fonts/TypeType - TT Lakes Compressed Black.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
