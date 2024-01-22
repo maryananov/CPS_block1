@@ -11,12 +11,12 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <title>Title</title>
 </head>
-<body>
-<menu>
-    <div class="menu-container">
-        <div class="menu-list-left">
-            <ul>
-                <li>
+<body class="body">
+<menu class="main-menu">
+    <div class="main-menu__container">
+        <div class="menu-list">
+            <ul class="menu-list menu-list_left">
+                <li class="menu-list__list-item">
                     <a href="#1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="40" viewBox="0 0 42 40" fill="none">
                             <rect x="0.178467" width="40.8333" height="40" rx="20" fill="#FF3E79"/>
@@ -40,9 +40,9 @@
                 </li>
             </ul>
         </div>
-        <div class="menu-list-right">
-            <ul class="before-devider">
-                <li>
+        <div class="menu-list menu-list_right">
+            <ul class="menu-list menu-list_before-devider">
+                <li class="menu-list__list-item">
                     <a href="#1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="40" viewBox="0 0 42 40" fill="none">
                             <rect x="0.613037" width="40.8333" height="40" rx="20" fill="#FF3E79"/>
@@ -50,7 +50,7 @@
                         </svg>
                     </a>
                 </li>
-                <li>
+                <li class="menu-list__list-item">
                     <a href="#2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="40" viewBox="0 0 42 40" fill="none">
                             <rect x="0.446289" width="40.8333" height="40" rx="20" fill="#FF3E79"/>
@@ -63,7 +63,7 @@
                         </svg>
                     </a>
                 </li>
-                <li>
+                <li class="menu-list__list-item">
                     <a href="#3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="40" viewBox="0 0 42 40" fill="none">
                             <rect x="0.279785" width="40.8333" height="40" rx="20" fill="#FF3E79"/>
@@ -73,8 +73,8 @@
                     </a>
                 </li>
             </ul>
-            <ul class="after-devider">
-                <li>
+            <ul class="menu-list menu-list_after-devider">
+                <li class="menu-list__list-item">
                     <a href="#4">
                         <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
                             <rect x="0.154785" width="40.8333" height="40" rx="20" fill="#FF3E79"/>
@@ -84,7 +84,7 @@
                         </svg>
                     </a>
                 </li>
-                <li>
+                <li class="menu-list__list-item">
                     <a href="#5">
                         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="40" viewBox="0 0 42 40" fill="none">
                             <rect x="0.988037" width="40.8333" height="40" rx="20" fill="#FF3E79"/>
@@ -97,50 +97,50 @@
     </div>
 </menu>
 <div class="primary-nav">
-    <h1 class="primary-nav title">
+    <h1 class="primary-nav__title">
         Repair Services
     </h1>
-    <div class="primary-nav buttons">
+    <div class="primary-nav__buttons">
         <button class="button-repair" type="button">
-            <span class="button-repair-text">Make a Request</span>
+            <span class="button-repair__text">Make a Request</span>
             <img class="repair-icon" src="images/repair.svg" alt="repair">
         </button>
         <button class="button-status" type="button">
-            <span class="button-status-text">Check Status</span>
+            <span class="button-status__text">Check Status</span>
             <img class="status-icon" src="images/checkstatus.svg" alt="check status">
         </button>
     </div>
 </div>
-<div class="list-container">
-    <nav>
-        <ul>
-            <li><a href="#1">Repairable Brands</a></li>
-            <li><a href="#2">Repairable Gadgets</a></li>
-            <li><a href="#3">Prices</a></li>
-            <li><a href="#4">Addresses</a></li>
-            <li><a href="#5">Special Offers</a></li>
-            <li><a href="#5">Reviews</a></li>
+<div class="scroll-container">
+    <nav class="scroll-bar">
+        <ul class="scroll-bar__list">
+            <li class="scroll-bar__list-item"><a class="scroll-bar__list-link" href="#1">Repairable Brands</a></li>
+            <li class="scroll-bar__list-item"><a class="scroll-bar__list-link" href="#2">Repairable Gadgets</a></li>
+            <li class="scroll-bar__list-item"><a class="scroll-bar__list-link" href="#3">Prices</a></li>
+            <li class="scroll-bar__list-item"><a class="scroll-bar__list-link" href="#4">Addresses</a></li>
+            <li class="scroll-bar__list-item"><a class="scroll-bar__list-link" href="#5">Special Offers</a></li>
+            <li class="scroll-bar__list-item"><a class="scroll-bar__list-link" href="#5">Reviews</a></li>
         </ul>
     </nav>
 </div>
 <section class="content">
-    <div class="content-left">
-        <p class="p-content-first">We are an authorized service center for the repair of Dell equipment.
+    <div class="content__text">
+        <p class="content__text_first content__text_p">We are an authorized service center for the repair of Dell equipment.
             Only here you can repair your Dell laptop with an official manufacturer’s warranty.
         </p>
-        <p class="p-content-second"> We have been successfully operating since 1992 and have earned a reputation as a reliable partner,
+        <p class="content__text_second content__text_p"> We have been successfully operating since 1992 and have earned a reputation as a reliable partner,
             which is confirmed by a large number of regular customers.
             We are proud that people turn to us for recommendations and, in turn, recommend us to family and friends.
         </p>
-        <p class="p-content-third">
+        <p class="content__text_third content__text_p">
             We have been successfully operating since 1992 and have earned a reputation as a reliable partner
         </p>
         <button class="button-readmore" type="button">
             <img class="readmore-icon" src="images/expand.svg" alt="expand">
-            <span class="button-readmore-text">Read More</span>
+            <span class="button-readmore__text">Read More</span>
         </button>
     </div>
-    <img src="images/cps_logo.png" alt="CPS Logo">
+    <img class="content__img" src="images/cps_logo.png" alt="CPS Logo">
 </section>
 
 </body>
