@@ -53,14 +53,14 @@
     display: flex;
 }
 
-/*.menu-list .menu-list_right*/
-.menu-list .menu-list_left, .menu-list .menu-list_before-devider, .menu-list .menu-list_after-devider {
+/*.menu-list .menu-list__right*/
+.menu-list .menu-list__left, .menu-list .menu-list_before-devider, .menu-list .menu-list_after-devider {
     list-style-type: none;
     display: flex;
     align-items: center;
 }
 
-/*.menu-list .menu-list_right*/
+/*.menu-list .menu-list__right*/
 .menu-list .menu-list_before-devider .menu-list__list-item, .menu-list .menu-list_after-devider .menu-list__list-item
 {
     margin-right: 10px;
@@ -68,18 +68,18 @@
     position: relative; /* Create a positioning context for the pseudo-element */
 }
 
-/*.menu-list .menu-list_right*/
+/*.menu-list .menu-list__right*/
 .menu-list .menu-list_before-devider{
     padding-left: 0;
 }
 
-.menu-list .menu-list_left .menu-list__list-item {
+.menu-list .menu-list__left .menu-list__list-item {
     margin-right: 20px;
     padding-right: 20px; /* Add padding to create space for the divider */
     position: relative; /* Create a positioning context for the pseudo-element */
 }
 
-/*.menu-list .menu-list_right*/
+/*.menu-list .menu-list__right*/
 .menu-list .menu-list_before-devider .menu-list__list-item:nth-child(3)::after {
     content: '';
     position: absolute;
@@ -89,7 +89,7 @@
     border-right: 2px solid #EAEAEA; /* Adjust the color and style of the divider */
 }
 
-.menu-list .menu-list_left .menu-list__list-item:nth-child(1)::after {
+.menu-list .menu-list__left .menu-list__list-item:nth-child(1)::after {
     content: '';
     position: absolute;
     top: 0;
@@ -102,7 +102,6 @@
     display: flex;
     padding-right: 20px;
     justify-content: space-between;
-    align-items: flex-end;
     padding-top: 10px;
 }
 
@@ -271,16 +270,16 @@
 
 @media screen and (max-width: 768px) {
 
-    .menu-list .menu-list_left {
+    .menu-list .menu-list__left {
         padding: 10px;
     }
 
-    .menu-list .menu-list_left .menu-list__list-item {
+    .menu-list .menu-list__left .menu-list__list-item {
         margin-right: 10px;
         padding-right: 10px;
     }
 
-    .menu-list .menu-list_left::after {
+    .menu-list .menu-list__left::after {
         content: '';
         position: relative;
         top: 0;
@@ -289,16 +288,16 @@
         border-right: 2px solid #EAEAEA;
     }
 
-    .menu-list .menu-list_left .menu-list__list-item::after {
+    .menu-list .menu-list__left .menu-list__list-item::after {
         display: none;
     }
 
-    /*.menu-list .menu-list_right*/
+    /*.menu-list .menu-list__right*/
     .menu-list .menu-list_before-devider{
         display: none;
     }
 
-    .menu-list .menu-list_left .logo {
+    .menu-list .menu-list__left .logo {
         padding-right: 20px;
     }
 
